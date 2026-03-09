@@ -1,0 +1,13 @@
+###
+GET http://localhost:8080/other/query?maker=test
+
+
+###
+GET http://localhost:8080/other/header
+myHeader: header-value
+
+### 
+POST  http://localhost:8080/other/body
+Content-Type: text/plain
+
+Hello World!
